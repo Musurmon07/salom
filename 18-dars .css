@@ -1,0 +1,194 @@
+
+body{
+    font-family: sans-serif;
+}
+
+
+.loyiha img {
+    width: 90px;
+    height: 90px;
+    border-radius: 25%;
+                   }
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.to-uppercase {
+    text-transform: uppercase;
+}
+ 
+.clearlif {
+  clear: both;
+}
+  
+
+  /*stael */
+.loyiha{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.main-navigation  {
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.main-navigation__item{
+    display: inline-block;
+    padding: 10px;
+}
+ 
+.main-navigation__item a{
+    color:gold;
+    text-decoration: none;
+    text-transform:uppercase ;
+    font-size: 12px;
+    font-weight: 500;
+}
+.main-navigation__item a:hover{
+    color: violet;
+}
+
+.main-navigation__item.active a{
+    color: wheat;
+}
+
+/* Main section*/
+
+.main-saction{
+padding: 100px 30px;
+}
+
+.main-saction > div{
+    width: 50%;
+    float: left;
+}
+.main-saction__image{
+    text-align: right;
+}
+.main-saction__welcome {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+.main-saction__introduction {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #05364e;
+}
+.main-saction__postiton {
+    color: #4d18dd;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.main-saction__social-networks a {
+    color: #8fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.main-saction__social-networks a:hover i{
+    color: #4d18dd;
+}
+
+.main-saction__action {
+    margin-top: 30px;
+
+}
+
+
+/*statistic section*/
+.ststistics {
+    padding-top: 100px;
+}
+
+.ststistics__item {
+    display: inline-block;
+    width: 150px;
+    background-color:#F8FAFF ;
+    text-align: center;
+    padding: 5px 10px ;
+    margin-right: 50px;
+}
+
+.ststistics__namber {
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1c44e4;
+}
+.ststistics__title {
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
+}
+
+
+/* Abaut me sction */
+.abaut-me{
+    padding: 100px 0;
+}
+.abaut-me >div {
+    width:50%;
+    float: left;
+}
+.abaut-me__imges {
+    width: 90%;
+}
+.section-subtitle{
+    letter-spacing:2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.button {
+    border: none;
+    background-color: #1c44e4;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.saction-title {
+    margin-top: 5px;
+    font-size: 42px;
+    font-weight: 700; 
+    text-transform:capitalize;
+    color: #05364d;
+}
+
+.blur-line{
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background-color: rgb(177, 43, 126);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+
+.abaut-me__men {
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+    line-height: 27px;
+}
+.abaut-me__action {
+    margin-top: 40px;
+}
